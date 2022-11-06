@@ -9,11 +9,12 @@
     <h1>تسجيل طلبات 📦</h1>
     <hr />
     <div class="form">
-      <input type="text" name="name" id="name" placeholder="الاسم" />
-      <input type="number" name="id" id="id" placeholder="الهوية" />
-      <input type="tel" name="phone" id="phone" placeholder="رقم الهاتف" />
-      <input type="text" name="order" id="order" placeholder="الطلب" />
-      <button onclick="addOrder()">Add Order!</button>
+      <input style="background-color:white ; border-radius: 5px; width: 200px;height: 25px;" type="text" name="name" id="name" placeholder="الاسم" />
+      <input  style="background-color:white ; border-radius: 5px;width: 200px;height: 25px;" type="number" name="id" id="id" placeholder="الهوية" />
+      <input style="background-color:white ; border-radius: 5px;width: 200px;height: 25px;" type="tel" name="phone" id="phone" placeholder="رقم الهاتف" />
+      <input style="background-color:rgb(255, 255, 255) ; border-radius: 5px;width: 200px;height: 25px;" type="text" name="order" id="order" placeholder="الطلب" />
+      <button class="addButton" onclick="addOrder()">Add Order!</button> 
+      <button class="deleteButton" onclick="remove()">remove Order!</button>
     </div>
     <hr />
     <h1>الطلبات</h1>
